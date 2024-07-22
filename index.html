@@ -11,15 +11,41 @@
     <div class="flex-wrap">
         <div class="main">
             <div class="sidebar">
-                <div>
+                <div class="sidebar-navbar">
                     <ul>
-                        <li><a href=""><img src="img/logo-small.svg" alt="spotify-logo"></a></li>
-                        <li><a href=""><img src="img/home.svg" alt="home-button"></a></li>
-                        <li><a href=""><img src="img/search.svg" alt=""></a></li>
-                        <li><a href=""><img src="img/libreria.svg" alt=""></a></li>
+                        <li class="spotify-logo">
+                                <img class="icon icon-spotify small-logo" src="img/logo-small.svg" alt="spotify-logo">
+                                <img class="icon icon-spotify big-logo" src="img/logo.svg" alt="spotify-logo">
+                        </li>
+                        <li>
+                            <a href=""><img class="icon" src="img/home.svg" alt="home-button"></a>
+                            <span class="icon-name">Home</span>
+                        </li>
+                        <li>
+                            <a href=""><img class="icon" src="img/search.svg" alt="search-button"></a>
+                            <span class="icon-name">Cerca</span>
+                        </li>
+                        <li>
+                            <a href=""><img class="icon" src="img/libreria.svg" alt="library-button"></a>
+                            <span class="icon-name">Home</span>
+                        </li>
                     </ul>
                 </div>
-                <div></div>
+                <div class="sidebar-navbar">
+                    <ul>
+                        <li>
+                            <a href=""><img class="icon download-icon" src="img/download.svg" alt=""></a>
+                            <span class="icon-name">Installa app</span>
+                        </li>
+
+                        <div class="sidebar-break-line"></div>
+
+                        <li>
+                            <a href=""><img class="icon profile-icon" src="img/profile.svg" alt=""></a>
+                            <span class="icon-name">John Doe</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="main-content">
                 <header></header>
@@ -27,7 +53,14 @@
         </div>
 
         <footer>
-            <div class="playbar"></div>
+            <div class="playbar">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
         </footer>
     </div>
 </body>

@@ -2,4 +2,35 @@
     .sidebar {
         flex-basis: 250px;
     }
+
+    .sidebar-navbar ul {
+        align-items: flex-start;
+        margin: 10px 0 10px 0px;
+    }
+
+    .sidebar-navbar ul li {
+        margin-left: 20px;
+    }
+
+    .sidebar-break-line {
+        display: block;
+    }
+
+    .icon-name {
+        display: inline-block;
+    }
+    
+    .spotify-logo {
+        margin-bottom: 20px;
+    }
+
+    .big-logo {
+        width: 150px;
+        display: inline-block;
+    }
+
+    .small-logo {
+        display: none;
+    }
+
 }
