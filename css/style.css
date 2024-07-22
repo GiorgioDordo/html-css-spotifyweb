@@ -6,51 +6,43 @@
 
 /* GENERAL */
 
+img {
+    max-width: 70%;
+}
 
-
-.flex {
+/* BODY */
+.main {
+    overflow-y: auto;
+    background-color: yellow;
+    height: calc(100vh - 100px);
+    background-color: yellow;
     display: flex;
 }
 
-.container {
-    max-width: 100vw;
-    max-height: 100vh;
-}
-
 .sidebar {
-    min-width: 80px;
-    height: 100vh;
-    background-color: red;
-    z-index: 1;
+    background-color: pink;
+    flex-basis: 50px;
+    flex-shrink: 0;
 }
 
-.home-page {
+.main-content {
     flex-grow: 1;
     background-color: aqua;
-    flex-direction: column;
+    overflow: auto;
 }
 
-.header {
-    min-height: 80px;
-    position: fixed;
+
+footer {
+    height: 100px;
+    background-color: grey;
+    flex-shrink: 0;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.226);
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.432);
-}
-
-.play-bar {
-    min-height: 80px;
-    background-color: bisque;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
-.content {
-    padding: 10px;
-    max-width: 100%;
-    overflow: scroll;
 }
