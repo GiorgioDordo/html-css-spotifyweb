@@ -4,19 +4,39 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 /* GENERAL */
  
 .flex {
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+}
 
-/* BODY */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+
+
+/* LAYOUT */
 .main {
     overflow-y: auto;
-    background-color: yellow;
+    /* background-color: yellow; */
     height: calc(100vh - 100px);
-    background-color: yellow;
     display: flex;
 }
 
@@ -111,6 +131,43 @@ header {
     margin-right: 5px;
 }
 
+
+/* MAIN CONTENT */
+
+.list-home-menu {
+    padding-top: 20px;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.recently-played {
+    padding: 20px;
+}
+
+.title-section-playlist {
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+.playlist {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+
+.playlist li {
+    flex-basis: 50%;
+    padding: 8px;
+}
+
+.round-icon-music {
+    border-radius: 50%;
+}
+
+
 /* FOOTER */
 
 .playbar {
@@ -201,3 +258,4 @@ header {
     width: 30%;
     background-color: rgb(219, 215, 215);
 }
+
