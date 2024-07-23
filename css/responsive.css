@@ -1,6 +1,6 @@
 @media screen and (max-width: 579px) {
-    .create-playlist {
-        visibility: hidden;
+    .sidebar-navbar .create-playlist {
+        display: none;
     }
 }
 
